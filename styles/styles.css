@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;400;600&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Sofia Sans', Arial, sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    width: 400px;
+}
+
+header, footer {
+    display: flex;
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+img {
+    width: 100px;
+    border-radius: 10px;;
+}
+
+.center-content {
+    display: flex;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 3px;
+}
+
+.last-updated {
+    color:darkslateblue;
+}
+
+.lesson-list {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    padding: 20px;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 400;
+}
