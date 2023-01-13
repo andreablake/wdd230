@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    width: 400px;
+    padding: 10px;
 }
 
 header, footer {
@@ -17,27 +17,27 @@ header, footer {
     background-color: cornflowerblue;
     border-radius: 10px;
     color: aliceblue;
+    align-items: center;
+    justify-content: left;
 }
 
 img {
     width: 100px;
-    border-radius: 10px;;
+    height: 133.453px;
+    border-radius: 10px;
 }
 
 .center-content {
     display: flex;
-    width: 300px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    margin: 20px;
+    text-align: left;
+
 }
 
 footer {
     display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: center;
-    justify-content: center;
     margin-top: 20px;
 }
 
@@ -57,8 +57,26 @@ footer p {
 
 h1 {
     font-weight: 600;
+    margin: 0;
 }
 
 h2 {
     font-weight: 400;
 }
+
+
+
+/* FOR SMALL SCREEN */
+@media only screen and (max-width: 32.5em) {
+
+    .container {
+        width: 400px;
+    }
+
+    .lesson-list {
+        font-size: 25px;
+    }
+
+}
+
+/* Will need to split general styles, small styles, and medium styles into separate files */

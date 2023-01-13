@@ -1,0 +1,15 @@
+@media only screen and (min-width: 32.5em) {
+
+    .container {
+        width: 800px;
+    }
+
+    .lesson-list {
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: 20px;
+    }
+
+}
