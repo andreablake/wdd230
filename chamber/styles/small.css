@@ -1,0 +1,262 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,800;1,400&family=Alegreya:ital,wght@0,500;1,400;1,500&display=swap');
+
+
+/* VARIABLES */
+:root {
+    --dark-gold: #8E793E;
+    --light-gold: #AD974F;
+    --intellectual-grey: #231F20;
+    --light-grey: #EAEAEA;
+}
+
+
+
+/* GENERAL */
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: block;
+    min-width: 380px;
+    width: 100%;
+    margin-top: 0;
+    background-color: var(--intellectual-grey);
+}
+
+h1 {
+    font-family: 'Alegreya Sans', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: var(--light-gold);
+    margin-right: 20px;
+}
+
+
+/* HEADER AND NAVIGATION */
+header {
+    display: block;
+    background-color: var(--intellectual-grey);
+}
+
+.title {
+    display: flex;
+    /* margin: 1rem; */
+    /* padding: 0; */
+    justify-content: left;
+    align-items: center;
+}
+
+.img_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: .3em 2vw;
+}
+
+.social-media {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: left;
+}
+
+.social-media a {
+    margin: .2em;
+}
+
+nav {
+    text-align: center;
+    align-items: right;
+}
+
+nav ul {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav button {
+    /* margin: .2em 2vw; */
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: var(--light-gold);
+}
+
+nav ul#primaryNav {
+    position: absolute;
+    top: 0;
+    margin-top: 160px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+
+    background-color: var(--intellectual-grey);
+
+}
+
+nav ul li a {
+    display: block;
+    /* display: flex; */
+
+    font-family: 'Alegreya', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+
+    /* flex: 1; */
+    justify-content: center;
+    align-items: center;
+
+
+    padding: .8rem;
+    text-decoration: none;
+    color: var(--light-gold);
+    border-top: 1px solid var(--dark-gold);
+}
+
+/* nav ul li {
+} */
+
+nav ul li.active a {
+    background-color: var(--dark-gold);
+    color: var(--intellectual-grey);
+}
+
+nav ul li a:hover {
+    color: var(--intellectual-grey);
+    background-color: var(--light-gold);
+}
+
+/* nav ul {display: none;} */
+nav ul.open {display: block;}
+
+
+
+
+div.current-date {
+    display: block;
+    background-color: var(--light-gold);
+    padding: .5rem;
+    font-family: 'Alegreya', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+
+/* SECTIONS */
+
+.content {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: auto;
+}
+
+
+.section {
+    height: 25rem;
+    width: 90%;
+    padding: 0;
+    margin: 2rem auto;
+    background-color: var(--intellectual-grey);
+    border: 15px solid var(--light-gold);
+}
+
+.section p {
+    font-family: 'Alegreya', Arial, sans-serif;
+    color: var(--light-grey);
+    margin: 2rem;
+}
+
+.section.spotlight-container {
+    height: 50rem;
+}
+
+
+.spotlight {
+    margin: 2rem;    
+    padding: 0;
+    background-color: var(--light-gold);
+    height: 44%;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    background-color: var(--light-gold);
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-family: 'Alegreya Sans', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--intellectual-grey);
+}
+
+.footer {
+    display: block;
+    margin: 1rem 2rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* IMAGES */
+img.chamber_logo.header {
+    height: 100%;
+    width: auto;
+    margin: .5em 2vw;
+}
+
+img.chamber_logo.footer {
+    width: 15rem;
+    height: auto;
+}
+
+img.media_logo {
+    width: 2em;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+

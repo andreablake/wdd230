@@ -1,0 +1,12 @@
+@media only screen and (min-width: 64rem) {
+
+    nav ul li a {
+        padding: .3rem 1rem;
+    }
+
+    img.media_logo {
+        width: 2.5em;
+        height: auto;
+    }
+
+}
